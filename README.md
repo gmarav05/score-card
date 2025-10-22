@@ -8,6 +8,10 @@ Built with simple HTML5, CSS3 and Vanilla JavaScript.
 
 ## Video
 
+
+https://github.com/user-attachments/assets/264c30c2-c13b-4a58-a2ba-2099421f3ca8
+
+
 ## Learnings
 - How to listen click events on HTML.
 - How to manipulate textcontent of elements in document.
