@@ -1,0 +1,51 @@
+@font-face {
+  font-family: cricket;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: cricket;
+    background-color: #FEF3C7;
+}
+
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    width: 100%;
+    font-size: 100px;
+    font-family: cricket;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+ 
+.score {
+    color: red;
+    font-size: larger;
+    padding: 60px 40px 60px 40px;
+    font-size: 130px;
+} 
+
+.score-btn {
+    font-family: cricket;
+    margin-top: 50px;
+    width: 75px;
+    height: 80px;
+    font-size: 40px;
+    background-color: #FEF3C7;
+    border: 4px solid black;
+    border-radius: 9px;
+}

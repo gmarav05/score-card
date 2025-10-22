@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+     <div class="container">
+
+            <div>
+                <h3>Home</h3>
+                <div class="card">
+                    <div id="home-score" class="score">
+                       0
+                    </div>
+                </div>
+
+                <button onclick="homeAdd1()" class="score-btn">+1</button>
+                <button onclick="homeAdd4()" class="score-btn">+4</button>
+                <button onclick="homeAdd6()" class="score-btn">+6</button>
+
+            </div>
+
+            <div>
+                <h3>OPPN</h3>
+                <div class="card">
+                  <div class="score">
+                       0
+                    </div>
+                </div>
+                <button onclick="oppAdd1()" class="score-btn">+1</button>
+                <button onclick="oppAdd4()" class="score-btn">+4</button>
+                <button onclick="oppAdd6()" class="score-btn">+6</button>
+
+
+
+            </div>
+
+        </div>
+
+        <!-- <div class="new-game">
+            <button>New Game</button>
+        </div> -->
     
 </body>
+<script src="app.js"></script>
 </html>
