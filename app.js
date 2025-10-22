@@ -40,3 +40,12 @@ function oppAdd6() {
     oppnCount += 6;
     oppnScoreEl.textContent = oppnCount;
 }
+
+function newGame() {
+    
+    homeCount = 0;
+    homeScoreEl.textContent = homeCount;
+
+    oppnCount = 0;
+    oppnScoreEl.textContent = oppnCount;
+}
